@@ -2,5 +2,6 @@
 __pychache__/
 __pycache__/main.cpython-38.pyc
 .DS_Store
+app/__pycache__/
 app/__pycache__/main.cpython-38.pyc
 app/__pycache__/__init__.cpython-38.pyc
