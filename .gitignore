@@ -1,5 +1,5 @@
 .venv/
-code/
+db/
 __pychache__/
 __pycache__/main.cpython-38.pyc
 .DS_Store
