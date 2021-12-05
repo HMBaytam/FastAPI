@@ -63,6 +63,3 @@ def update_post(id: int, post: Post, response: Response):
     my_posts.remove(post)
     my_posts.append(post_dict)
     return {"message": post_dict}
-
-if __name__ == "__main__":
-    uvicorn.run("app.api:app", host="0.0.0.0", port=57889, reload=True)

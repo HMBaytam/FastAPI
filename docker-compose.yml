@@ -6,7 +6,7 @@ services:
     build: .
     container_name: fastapi_app
     ports:
-      - 5788:5788
+      - 8000:8000
     volumes:
       - .:/usr/src/app
     links:
