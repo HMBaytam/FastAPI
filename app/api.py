@@ -40,8 +40,6 @@ def create_post(post: Post):
 def get_post(id: int, response: Response):
     post = find_post(id)
     if not post:
-        # response.status_code = status.HTTP_404_NOT_FOUND
-        # return {"message": f"Post with id {id} not found"}
         raise HTTPException(status_code=status.HTTP_404_NOT_FOUND, detail=f"Post with id {id} not found")
     return {"data": post}
 
